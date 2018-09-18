@@ -332,7 +332,7 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gsutil acl ch -u AllUsers:R gs://www.example.com/index.html</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>设置<br> 使用 gsutil web set 命令设置 MainPageSuffix 属性（搭配 -m 标志）和 NotFoundPage（搭配 -e 标志）：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gsutil web <span class="built_in">set</span> -m index.html -e 404.html gs://www.example.com</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gsutil web <span class="built_in">set</span> -m index.html <span class="_">-e</span> 404.html gs://www.example.com</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>删除</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gsutil rm -r gs://www.example.com</span><br></pre></td></tr></table></figure>
